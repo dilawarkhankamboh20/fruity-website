@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+
+    background: url(../images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+nav{
+
+    max-width: 80vw;
+    margin: auto;
+}
+
+.logo{
+
+    float: left;
+}
+
+.logo h2{
+color: white;
+font-size: 3.3rem;
+font-family: 'Moon Dance', cursive;
+
+}
+
+
+.button{
+float: right;
+margin-top: 1.5rem;
+}
+
+
+.button button{
+
+    padding: 0.7rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background:orange;
+}
+
+
+.center{
+
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.center input{
+
+    width: 40vw;
+    padding: 0.7rem 1rem;
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.center button {
+
+    padding: 0.7rem 3rem;
+    background: orange;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+#card_wraper{
+
+    height: 160vh;
+}
+
+#card_wraper h2{
+padding-top: 2rem;
+text-align: center;
+font-size: 2rem;
+font-family: sans-serif;
+}
+
+
+.card{
+    float: left;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.card img{
+
+    height: 400px;
+}
+
+#test{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../images/section.jpg);   
+    background-position: center;
+    background-size: cover;
+}
+
+.test{
+
+    padding-top: 6rem;
+}
+
+.test h1{
+
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+footer{
+
+    height: 10vh;
+    background: orange;
+}
+
+
+footer p{
+
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+@media(max-width:1300px){
+
+
+    #card_wraper{
+
+        height: 200vh;
+    }
+    
+}
+
+@media(max-width:1200px){
+
+    #card_wraper{
+
+        height: 300vh;
+    }
+}
+
+@media(max-width:900px){
+
+    #card_wraper{
+
+        height: 350vh;
+    }
+}
+
+@media(max-width:550px){
+
+    #card_wraper{
+
+        height: 640vh;
+    }
+}
